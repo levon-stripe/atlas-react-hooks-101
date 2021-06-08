@@ -5,6 +5,7 @@ import ClassClock from "./ClassClock";
 import HooksClock from "./HooksClock";
 import ClassUserName from "./ClassUserName";
 import HooksUserName from "./HooksUserName";
+import CustomUserName from "./CustomUserName";
 import { useState } from "react";
 
 function App() {
@@ -37,6 +38,8 @@ function App() {
       <ClassUserName id={id} label={label} />
       <h2>Hooks</h2>
       <HooksUserName id={id} label={label} />
+      <h2>CustomHook</h2>
+      <CustomUserName id={id} label={label} />
     </div>
   );
 }
