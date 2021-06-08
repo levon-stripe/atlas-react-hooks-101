@@ -7,20 +7,19 @@ import HooksClock from "./HooksClock";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Phone Input</h1>
-        <h2>Class</h2>
-        <ClassPhoneInput />
-        <h2>Hooks</h2>
-        <HooksPhoneInput />
+      <h1>Phone Input</h1>
+      <h2>Class</h2>
+      <ClassPhoneInput />
+      <h2>Hooks</h2>
+      <HooksPhoneInput />
 
-        <hr />
-        <h1>Clock</h1>
-        <h2>Class</h2>
-        <ClassClock />
-        <h2>Hooks</h2>
-        <HooksClock />
-      </header>
+      <hr />
+
+      <h1>Clock</h1>
+      <h2>Class</h2>
+      <ClassClock />
+      <h2>Hooks</h2>
+      <HooksClock />
     </div>
   );
 }
